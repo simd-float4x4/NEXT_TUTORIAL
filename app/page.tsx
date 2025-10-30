@@ -2,7 +2,7 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
-import { inter, lustiana } from '@/app/ui/fonts';
+import { inter, lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 
 export default function Page() {
@@ -21,7 +21,7 @@ export default function Page() {
             </a>
             , brought to you by Vercel.
           </p>
-          <p className={`${lustiana.className} antialiased`}>
+          <p className={`${lusitana.className} antialiased`}>
             Now it's your turn! In your fonts.ts file, import a secondary font called Lusitana and pass it to the ｐ element in your /app/page.tsx file. In addition to specifying a subset like you did before, you should also specify different font weights. For example, 400 (normal) and 700 (bold).
           </p>
           <Link
